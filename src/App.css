@@ -1,38 +1,96 @@
-.App {
+/* mobile first */
+
+.mobile-headers {
+  width: Fill (360px)px;
+  height: Hug (48px)px;
+  padding: 12px 24px 12px 24px;
+  gap: 0px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0px;
+  background: #dfb7b7;
+  ;
+}
+
+.nav-wrp {
+  width: Hug (104px)px;
+  height: Hug (24px)px;
+  gap: 16px;
+  opacity: 0px;
+  display: flex;
+}
+
+/* баннер */
+.banner-container {
+  width: Fill (360px)px;
+  height: Hug (407px)px;
+  padding: 16px 24px 16px 24px;
+  gap: 8px;
+  opacity: 0px;
+
+}
+
+.banner-wrp {
+  width: Fill (312px)px;
+  height: Hug (375px)px;
+  padding: 16px 0px 0px 0px;
+  gap: 16px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+
+  background: rgba(255, 255, 255, 1);
+
+  box-shadow: 2px 2px 30px 0px rgba(0, 0, 0, 0.03);
+  box-shadow: -2px -2px 30px 0px rgba(0, 0, 0, 0.03);
+
+  text-align: center;
+  display: block;
+}
+
+
+.banner-tittle {
+  /* width: 270px;
+  height: 78px;
+  gap: 0px;
+  opacity: 0px; свойства по фигме*/
+  color: rgba(16, 16, 16, 1);
+  text-transform: uppercase;
+  font-family: Golos;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 39.2px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner-tittle-text {
+  color: rgba(43, 188, 101, 1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner-text {
+  width: 280px;
+  height: 65px;
+  gap: 0px;
+  opacity: 0px;
+  /* display: inline-flex;
+flex-direction: column;
+justify-content: center;   */
+
+  font-family: Golos;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25.2px;
+  text-align: center;
+  color: rgba(16, 16, 16, 0.7);
+   display: inline-block; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.banner-text p {
+  font-family: Golos;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: center;
+display: block;
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
